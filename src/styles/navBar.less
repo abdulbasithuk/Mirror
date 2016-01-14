@@ -1,0 +1,27 @@
+@import "./shared.less";
+
+.com-nav-bar { color: #2b303b; background: linear-gradient(to bottom, #cfd5e4, rgba(255,0,0,0)); display: block; height: 80px; width: 100%; font-family: 'Overlock', cursive;
+  /*border-bottom: 1px solid #fff; box-shadow: 0 -1px 3px 3px #fff;*/
+  //margin: 50px auto 0; width: 788px; height: 45px; box-shadow: 0 1px 2px 0 @nav-bar-theme; border-radius: 3px; border: 1px solid @nav-bar-theme - #050505;
+  ul { /*padding: 10px; margin: 10px;*/
+    li {
+      display: inline;
+      padding: 15px;
+      a {
+        color: #2b303b;
+        text-decoration: none;
+      }
+    }
+  }
+  .cd-logo { width: 75%; display: inline-block;  margin-top: 10px;
+    .cd-logo-item { margin-left: 15px;}
+  }
+  .cd-navigation { width: 25%; display: inline-block; margin-top: 10px;
+    .cd-navigation-item {
+      &:active{
+        border: 1px solid #fff; background: #fff; border-radius: 5px; font-weight: bold;
+      }
+      &:hover { font-weight: bold; }
+    }
+  }
+}
