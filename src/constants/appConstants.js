@@ -4,7 +4,7 @@
 var keyMirror = require('keymirror');
 
 module.exports = keyMirror({
-  DO_SEARCH: null
+
 });
 
 
