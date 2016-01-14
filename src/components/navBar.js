@@ -8,8 +8,6 @@ import React from 'react';
 import AppActions from '../actions/appActions';
 import { Link } from 'react-router'
 
-let sdLogo = require('../images/sdwsLogo.png');
-
 class NavBarComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -19,7 +17,7 @@ class NavBarComponent extends React.Component {
         return (
             <nav className="com-nav-bar">
                 <div className="cd-logo">
-                    <img className="cd-logo-item" src={sdLogo} alt="Test logo"/>
+                    <img className="cd-logo-item" src={} alt="Test logo"/>
                 </div>
                 <div className="cd-navigation">
                     <ul>
