@@ -3,19 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/server.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/actions/appActions.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/api/searchAPI.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/components/Main.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/components/bundle.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/components/noResults.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/components/resultsList.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/components/searchBox.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/homePage.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/constants/appConstants.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/constants/endpointConstants.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/dispatcher/appDispatcher.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/stores/appStore.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/styles/App.less" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/styles/resultsList.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/styles/searchBox.css" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

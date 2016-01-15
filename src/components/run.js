@@ -1,3 +1,4 @@
+require('normalize.css');
 require('styles/App.less');
 
 import React from 'react';
@@ -6,7 +7,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 import NavBar from './navBar.js';
 import AboutPage from './aboutPage.js';
 import ContactPage from './contactPage.js';
-import AppMain from './Main';
+import HomePage from './homePage';
 
 class App extends React.Component {
     render() {
@@ -27,8 +28,8 @@ class App extends React.Component {
 ReactDOM.render(
     <Router>
         <Route path="/" component={App}>
-            <IndexRoute component={AppMain}/>
-            <Route path="home" component={AppMain}/>
+            <IndexRoute component={HomePage}/>
+            <Route path="home" component={HomePage}/>
             <Route path="about" component={AboutPage}/>
             <Route path="contact" component={ContactPage}/>
         </Route>
