@@ -10,6 +10,8 @@ import { Link } from 'react-router'
 
 let profileImage = require('../images/profile_image.png');
 
+const ACTIVE_LINK = "cd-active-link";
+
 class NavBarComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -20,12 +22,13 @@ class NavBarComponent extends React.Component {
             <nav className="com-nav-bar">
                 <div className="cd-logo">
                     <img className="cd-logo-item" src={profileImage}/>
+                    <span className="cd-title">Abdul's Space</span>
                 </div>
                 <div className="cd-navigation">
-                    <ul>
-                        <li className="cd-navigation-item"><Link to="/home">Home</Link></li>
-                        <li className="cd-navigation-item"><Link to="/about">About</Link></li>
-                        <li className="cd-navigation-item"><Link to="/contact">Contact</Link></li>
+                    <ul className="cd-navigation-links-wrapper">
+                        <li><Link className="cd-navigation-item" to="/home" activeClassName={ACTIVE_LINK}>Home</Link></li>
+                        <li><Link className="cd-navigation-item" to="/about" activeClassName={ACTIVE_LINK}>About</Link></li>
+                        <li><Link className="cd-navigation-item" to="/contact" activeClassName={ACTIVE_LINK}>Contact</Link></li>
                     </ul>
                 </div>
             </nav>

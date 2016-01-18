@@ -12,14 +12,15 @@
     }
   }
   .cd-logo { width: 75%; display: inline-block;  margin-top: 10px;
-    .cd-logo-item { margin-left: 30px; width: 130px; height: 130px; border-radius: 50%; background-repeat: no-repeat; background-position: center center; background-size: cover; }
+    .cd-logo-item { margin-left: 30px; width: 130px; height: 130px; border-radius: 50%; background-repeat: no-repeat; background-position: center center; background-size: cover;}
+    .cd-title { font-size: 40px; font-weight: bolder;}
   }
-  .cd-navigation { width: 25%; display: inline-block; font-size: 20px;
-    .cd-navigation-item { padding: 25px;
-      &:active{
-        border: 1px solid #fff; background: #fff; border-radius: 5px; font-weight: bold;
+  .cd-navigation { width: 25%; display: inline-block; font-size: 25px;
+    .cd-navigation-links-wrapper {
+      .cd-navigation-item { padding: 25px; margin-right: -30px;
+        &:active, &.cd-active-link { background: #fff; border-radius: 5px; font-weight: bold; }
+        &:hover { font-weight: bold; }
       }
-      &:hover { font-weight: bold; }
     }
   }
 }
